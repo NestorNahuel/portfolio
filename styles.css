@@ -1,0 +1,66 @@
+html, body, div, h1, h2, h3, h4, h5, h6,
+a, img, section, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+	font-size: 100%;
+    text-wrap: balance;
+    background-color: #f4f4f4;
+	vertical-align: baseline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.center-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.github {
+    background-color: #333;
+}
+
+.linkedin:hover {
+    background-color: #005c8e;
+}
+
+.github:hover {
+    background-color: #111;
+}
